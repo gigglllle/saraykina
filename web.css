@@ -60,21 +60,14 @@ hr {
 #barash{
     background-color: #e3dcfafa;
 }
-@keyframes wipe-enter {
-    0% {
-      transform: scale(0, .025);
-    }
-    50% {
-      transform: scale(1, .025);
-    }
-  }
+
 @media screen and (max-width: 768px) {
     h1 {
         font-size: 1.2em;
     }
     body{
         margin: 5%;
-        font-size: 20px;
+        font-size: 0.8em;
     }
     .flex {
         flex-direction: column;
